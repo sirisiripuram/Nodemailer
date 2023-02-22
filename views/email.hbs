@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+                    <html>
+                      <head>
+                        <title>Centered Layout</title>
+                        <style>
+                          body {
+                            margin: 0;
+                            padding: 10;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            min-height: 100vh; 
+                          }
+                    
+                          #header {
+                            background-color: #393636;
+                            width: 90%;
+                            height: 50px;
+                          }
+                    
+                          #body {
+                            background-color: #eee;
+                            height: 260px;
+                            width: 90%;
+                            
+                          } 
+                          #footer {
+                            background-color: #454040;
+                            color: rgb(239, 245, 239);
+                            width: 90%;
+                            height: 40px;
+                          }
+                        </style>
+                      </head>
+                      <body>
+                        <div id="header">
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSgfTey9lZx3AbeYeThQ_SRvu3Q39ZbAiYs1Hzz9rNig&s" width="30%" height="100%"></img>
+                        </div>
+                        <div id="body">
+                          <h1>{{data.name}} please confirm your email address for KonnectMe!</h1>
+                          <p>{{data.name}}</p>
+                          <p>Before you can start you must connect your email address</p>
+                          <p>Please confirm your email address by clicking on the link below:</p>
+                          <a href={{data.verificationUrl}}>{{data.verificationUrl}}</a>
+                          <p>If you can't click on the link, copy and paste it to your browser manually.</p>
+                          <p>KonnectMe <br>
+                          <a href="http://KonnectMe.org/">http://KonnectMe.org/</a></p>
+                        </div>
+                    
+                        <div id="footer">
+    
+                          <p align="right">Join KonnectMe to support your Non profits</p>
+                        </div>
+                        
+                   </body>
+                    </html>

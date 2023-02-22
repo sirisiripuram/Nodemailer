@@ -8,4 +8,6 @@ app.use(bodyParser.json())
 const Evalidation = require('./routes/EValidationRoute');
 app.use('/',Evalidation)
 
-app.listen(3003)
+app.listen(3003,()=>{
+    console.log("running..");
+})
