@@ -3,6 +3,6 @@ module.exports=
 {
 "service" : "gmail",
 "host": "smtp.gmail.com",
-"user": "saarasanthoshgoud@gmail.com",
-"pass": "tlbbyvtruhxjimvo "
+"user": "siripuramsirivennela@gmail.com",
+"pass": "valntjnxfbnonrsw"
 }
